@@ -43,6 +43,13 @@ Someone just used different transformations of Manager ID Count and scored in th
 Source: [Renthop Kaggle Competition: Team Null](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)
 
 ---
+## Listing ID
+
+![Listing ID](./img/listing_id.png)
+
+[Source](https://www.kaggle.com/zeroblue/visualizing-listing-id-vs-interest-level)
+
+---
 ## Data Leak
 
 The creation time of the image folders were correlated with interest.
@@ -60,13 +67,9 @@ Red=High
 ## Feature Engineering
 
 A few interesting ones:
- - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.)
-
-
----
-## Data Leak
-Folde
-
+ - Grouping by categorical features and finding count/median/mean/standard
+ deviation of numerical ones.
+ - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.) (2nd Place)
 
 ---
 ## Second Place Solution
@@ -104,7 +107,12 @@ For each of 12 bags:
     Grid search hyperparameters
     If the new hyperparameters is better, blend it into the model
 ---
+## StackNet
 
+Written by Marios Michailidis (kazAnova) for his PhD
+A Java-based, flexible meta-modelling network
+
+![StackNet](./img/stacknet_modes.png)
 
 ---
 #References
