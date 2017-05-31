@@ -21,7 +21,7 @@ Goal: "predict how popular an apartment rental listing is based on the listing c
 Training: 49352 Rows
 Test: 74659 Rows
 
-78.5GB (compressed) of images barely anyone used
+78.5GB (compressed) of images barely anyone used (More on that later)
 
 ---
 
@@ -43,9 +43,29 @@ Someone just used different transformations of Manager ID Count and scored in th
 Source: [Renthop Kaggle Competition: Team Null](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)
 
 ---
-## What Actually Mattered
+## Data Leak
 
-Data Leak
+The creation time of the image folders were correlated with interest.
+
+![Leak](./img/leak.png)
+
+X-Axis: Day
+Y-Axis: Seconds
+Blue=Low
+Green=Medium
+Red=High
+
+[Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)
+---
+## Feature Engineering
+
+A few interesting ones:
+ - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.)
+
+
+---
+## Data Leak
+Folde
 
 
 ---
@@ -84,6 +104,12 @@ For each of 12 bags:
     Grid search hyperparameters
     If the new hyperparameters is better, blend it into the model
 ---
+
+
+---
+#References
+
+[2nd Place Solution](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32148)
 
 
 
