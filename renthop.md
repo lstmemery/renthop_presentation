@@ -68,8 +68,9 @@ Red=High
 
 A few interesting ones:
  - Grouping by categorical features and finding count/median/mean/standard
- deviation of numerical ones.
+ deviation of numerical ones. (3rd Place)
  - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.) (2nd Place)
+ - Leveraging duplicate data (Leads and lags on pricing) (11th Place)
 
 ---
 ## Second Place Solution
@@ -113,6 +114,8 @@ Written by Marios Michailidis (kazAnova) for his PhD
 A Java-based, flexible meta-modelling network
 
 ![StackNet](./img/stacknet_modes.png)
+
+[Source](https://github.com/kaz-Anova/StackNet)
 
 ---
 #References
