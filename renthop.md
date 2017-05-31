@@ -45,6 +45,45 @@ Source: [Renthop Kaggle Competition: Team Null](https://blog.nycdatascience.com/
 ---
 ## What Actually Mattered
 
+Data Leak
+
+
+---
+## Second Place Solution
+
+@Faron
+
+```
+- 32 LightGBM models
+- 9 Extreme Tree models (sklearn)
+- 7 RF models (sklearn)
+- 5 Keras models
+- 3 XGBoost models
+- @KazAnova's StackNet example base-level predictions
+```
+
+Sidenote: LightGBM seems to be the new model of choice.
+Best Model: LightGBM (CV: 0.50135/ Test: 0.50557)
+
+Meta-modeled with a 2-layer neural network.
+
+---
+## Second Place Solution
+Grid-Search Bagging
+
+Grid Search: Check cross-validation scores for each hyperparameter
+in regular intervals.
+    e.g. Check maximum depth of XGBoost from 1 to 10.
+
+Bagging (Bootstrap AGGregating): Sample the data many times, with
+replacement
+
+Grid-Search Bagging
+
+For each of 12 bags:
+    Grid search hyperparameters
+    If the new hyperparameters is better, blend it into the model
+---
 
 
 
