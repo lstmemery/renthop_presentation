@@ -26,15 +26,12 @@ permalink: /renthop-presentation/
 
 ![Example RentHop Listing](./img/renthop_listing.png)
 
- - There are three classes (Low/Medium/High Interest)
-
 ---
 
 # Understanding the Data
 
-![RentHop](./img/twosigma-renthop.png)
-
 Training: 49352 Rows
+
 Test: 74659 Rows
 
  - Location Data
@@ -42,12 +39,15 @@ Test: 74659 Rows
  - Image Data (78.5 Gb compressed)
  - ...and everything you would else you would expect (price, bedrooms etc.)
 
+![RentHop](./img/twosigma-renthop.png)
+
 ---
 # Understand the Metric
 
 Multiclass Log Loss (Low, Medium, High Interest)
 
-$$log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})$$
+<img src ="./img/logloss.png" height="80%" width="80%" alt = "Log Loss">
+
 
 ---
 ## Manager ID Count
