@@ -1,18 +1,23 @@
----
 layout: presentation
 title: RentHop Competition
 permalink: /renthop-presentation/
 ---
 class: center, middle, inverse
----
 # Two Sigma RentHop Competition
 
-Matthew Emery
+Matthew Emery (@lstmemery)
 
 June 1st, 2017
-
 ---
+# Winning Kaggle Competitions by KazAnova
 
+1. Understanding the Data
+2. Understand the Metric
+3. Cross-Validate Early!
+4. Hyperparameter Tuning
+
+[Source](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
+---
 # Who are Two Sigma and RentHop?
 
  - Two Sigma: AI Heavy New York Hedge Fund
@@ -60,16 +65,16 @@ Multiclass Log Loss (Low, Medium, High Interest)
 
 Someone just used different transformations of Manager ID Count and scored in the top 15%
 
-[Source](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)
+.footnote[[Source](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)]
 
 ---
 ## Listing ID
 
-<img style="float: left;" src ="./img/listing_id.png" height="70%" width="50%" alt = "Listing ID">
+<img style="float: left; margin-right: 5%;" src ="./img/listing_id.png" height="70%" width="50%" alt = "Listing ID">
 
  - This pattern hinted at a possible data leak...
 
-[Source](https://www.kaggle.com/zeroblue/visualizing-listing-id-vs-interest-level)
+.footnote[[Source](https://www.kaggle.com/zeroblue/visualizing-listing-id-vs-interest-level)]
 
 ---
 ## Data Leak
@@ -122,7 +127,7 @@ Meta-modeled with a 2-layer neural network.
 ---
 ## An Aside on LightGBM
 
-![LightGBM](./img/lightgbn.png)
+![LightGBM](./img/lightgbm.png)
 
  - Faster than XGBoost
  - Requires more hyperparameter optimization
@@ -157,15 +162,3 @@ A Java-based, flexible meta-modelling network
 #References
 
 [2nd Place Solution](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32148)
-
-
-
----
-# Winning Kaggle Competitions by KazAnova
-
-1. Understanding the Data
-2. Understand the Metric
-3. Cross-Validate Early!
-4. Hyperparameter Tuning
-
-[Source](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
