@@ -3,13 +3,11 @@ layout: presentation
 title: RentHop Competition
 permalink: /renthop-presentation/
 ---
+
 # Two Sigma RentHop Competition
 
-Matthew Emery
-
-June 1st, 2017
-
 ---
+
 # Who are Two Sigma and RentHop?
 
  - Two Sigma: AI Heavy New York Hedge Fund
@@ -21,6 +19,7 @@ June 1st, 2017
 [Source](https://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm)
 
 ---
+
 # The Goal
 
  - Predict how interested people will be in this:
@@ -30,6 +29,7 @@ June 1st, 2017
  - There are three classes (Low/Medium/High Interest)
 
 ---
+
 # Understanding the Data
 
 ![RentHop](./img/twosigma-renthop.png)
@@ -70,19 +70,16 @@ Someone just used different transformations of Manager ID Count and scored in th
 
 The creation time of the image folders were correlated with interest.
 
+<img src ="./img/leak.png" height="50%" width="50%" alt = "Leak Plot">
 
-
-X-Axis: Day
-Y-Axis: Seconds
-.blue[Blue=Low]
-.green[Green=Medium]
-.red[Red=High]
+- X-Axis: Day
+- Y-Axis: Seconds
+- .blue[Blue=Low]
+- .green[Green=Medium]
+- .red[Red=High]
 
 [Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)
 
-<img src ="./img/leak.png" height="4" width="4" alt = "Manager Count Plot">
-
-#TODO: Change order
 
 ---
 ## Feature Engineering
