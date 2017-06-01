@@ -1,11 +1,19 @@
 # Two Sigma RentHop Competition
 
+Matthew Emery
+
+June 1st, 2017
+
 ---
 # Who are Two Sigma and RentHop?
 
- - Two Sigma: AI heavy New York Hedge Fund
+ - Two Sigma: AI Heavy New York Hedge Fund
  - RentHop: Smart Apartment Search (New York Only)
+ - Reward: Recruitment to Two Sigma
 
+![Two Sigma Salary](./img/twosigma_salary.png)
+
+[Source](https://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm)
 
 ---
 # The Goal
@@ -21,16 +29,13 @@
 
 ![RentHop](./img/twosigma-renthop.png)
 
-Goal: "predict how popular an apartment rental listing is based on the listing content like **text description**, **photos**, number of bedrooms, price, etc."
-
 Training: 49352 Rows
 Test: 74659 Rows
 
 78.5GB (compressed) of images barely anyone used (More on that later)
 
 ---
-
-#Understand the Metric
+# Understand the Metric
 
 Multiclass Log Loss (Low, Medium, High Interest)
 
