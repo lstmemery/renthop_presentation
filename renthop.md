@@ -19,7 +19,6 @@ permalink: /renthop-presentation/
 [Source](https://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm)
 
 ---
-
 # The Goal
 
  - Predict how interested people will be in this:
@@ -61,7 +60,9 @@ Someone just used different transformations of Manager ID Count and scored in th
 ---
 ## Listing ID
 
-![Listing ID](./img/listing_id.png)
+<img style="float: left;" src ="./img/listing_id.png" height="70%" width="50%" alt = "Listing ID">
+
+ - This pattern hinted at a possible data leak...
 
 [Source](https://www.kaggle.com/zeroblue/visualizing-listing-id-vs-interest-level)
 
@@ -70,7 +71,7 @@ Someone just used different transformations of Manager ID Count and scored in th
 
 The creation time of the image folders were correlated with interest.
 
-<img src ="./img/leak.png" height="50%" width="50%" alt = "Leak Plot">
+<img  style="float: left;" src ="./img/leak.png" height="50%" width="50%" alt = "Leak Plot">
 
 - X-Axis: Day
 - Y-Axis: Seconds
