@@ -3,7 +3,13 @@ layout: presentation
 title: RentHop Competition
 permalink: /renthop-presentation/
 ---
+class: center, middle, inverse
+---
 # Two Sigma RentHop Competition
+
+Matthew Emery
+
+June 1st, 2017
 
 ---
 
@@ -91,6 +97,8 @@ A few interesting ones:
  deviation of numerical ones. (3rd Place)
  - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.) (2nd Place)
  - Leveraging duplicate data (Leads and lags on pricing) (11th Place)
+ - Exclamation Marks in description
+ - Reverse GeoCoding New York Neighbourhoods
 
 ---
 ## Second Place Solution
@@ -115,6 +123,9 @@ Meta-modeled with a 2-layer neural network.
 ## An Aside on LightGBM
 
 ![LightGBM](./img/lightgbn.png)
+
+ - Faster than XGBoost
+ - Requires more hyperparameter optimization
 
 ---
 ## Second Place Solution
@@ -150,12 +161,11 @@ A Java-based, flexible meta-modelling network
 
 
 ---
-# Agenda
+# Winning Kaggle Competitions by KazAnova
 
 1. Understanding the Data
 2. Understand the Metric
 3. Cross-Validate Early!
 4. Hyperparameter Tuning
 
-Source: [Winning Tips on Machine Learning Competitions by Kazanova](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
-
+[Source](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
