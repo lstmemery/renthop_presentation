@@ -16,7 +16,8 @@ June 1st, 2017
 3. Cross-Validate Early!
 4. Hyperparameter Tuning
 
-[Source](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
+.footnote[[Source](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)]
+
 ---
 # Who are Two Sigma and RentHop?
 
@@ -26,7 +27,7 @@ June 1st, 2017
 
 ![Two Sigma Salary](./img/twosigma_salary.png)
 
-[Source](https://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm)
+.footnote[[Source](https://www.glassdoor.com/Salary/Two-Sigma-Salaries-E241045.htm)]
 
 ---
 # The Goal
@@ -56,7 +57,6 @@ Test: 74659 Rows
 Multiclass Log Loss (Low, Medium, High Interest)
 
 <img src ="./img/logloss.png" height="80%" width="80%" alt = "Log Loss">
-
 
 ---
 ## Manager ID Count
