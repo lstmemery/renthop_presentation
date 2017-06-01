@@ -1,7 +1,6 @@
 layout: presentation
 title: RentHop Competition
 permalink: /renthop-presentation/
----
 class: center, middle, inverse
 # Two Sigma RentHop Competition
 
