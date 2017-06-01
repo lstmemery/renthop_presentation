@@ -1,15 +1,20 @@
 # Two Sigma RentHop Competition
 
 ---
+# Who are Two Sigma and RentHop?
 
-# Agenda
+ - Two Sigma: AI heavy New York Hedge Fund
+ - RentHop: Smart Apartment Search (New York Only)
 
-1. Understanding the Data
-2. Understand the Metric
-3. Cross-Validate Early!
-4. Hyperparameter Tuning
 
-Source: [Winning Tips on Machine Learning Competitions by Kazanova](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
+---
+# The Goal
+
+ - Predict how interested people will be in this:
+
+![Example RentHop Listing](./img/renthop_listing.png)
+
+ - There are three classes (Low/Medium/High Interest)
 
 ---
 # Understanding the Data
@@ -124,4 +129,13 @@ A Java-based, flexible meta-modelling network
 
 
 
+---
+# Agenda
+
+1. Understanding the Data
+2. Understand the Metric
+3. Cross-Validate Early!
+4. Hyperparameter Tuning
+
+Source: [Winning Tips on Machine Learning Competitions by Kazanova](https://www.hackerearth.com/practice/machine-learning/advanced-techniques/winning-tips-machine-learning-competitions-kazanova-current-kaggle-3/tutorial/)
 
