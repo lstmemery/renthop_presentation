@@ -3,7 +3,6 @@ layout: presentation
 title: RentHop Competition
 permalink: /renthop-presentation/
 ---
-
 # Two Sigma RentHop Competition
 
 ---
@@ -71,7 +70,10 @@ Someone just used different transformations of Manager ID Count and scored in th
 
 The creation time of the image folders were correlated with interest.
 
-<img  style="float: left;" src ="./img/leak.png" height="50%" width="50%" alt = "Leak Plot">
+<img style="float: left; margin-right: 5%;"
+src ="./img/leak.png"
+height="50%" width="50%"
+alt = "Leak Plot">
 
 - X-Axis: Day
 - Y-Axis: Seconds
@@ -79,8 +81,7 @@ The creation time of the image folders were correlated with interest.
 - .green[Green=Medium]
 - .red[Red=High]
 
-[Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)
-
+.footnote[[Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)]
 
 ---
 ## Feature Engineering
@@ -109,6 +110,11 @@ Sidenote: LightGBM seems to be the new model of choice.
 Best Model: LightGBM (CV: 0.50135/ Test: 0.50557)
 
 Meta-modeled with a 2-layer neural network.
+
+---
+## An Aside on LightGBM
+
+![LightGBM](./img/lightgbn.png)
 
 ---
 ## Second Place Solution
