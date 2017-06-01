@@ -1,3 +1,8 @@
+---
+layout: presentation
+title: RentHop Competition
+permalink: /renthop-presentation/
+---
 # Two Sigma RentHop Competition
 
 Matthew Emery
@@ -32,7 +37,10 @@ June 1st, 2017
 Training: 49352 Rows
 Test: 74659 Rows
 
-78.5GB (compressed) of images barely anyone used (More on that later)
+ - Location Data
+ - Natural Language Data
+ - Image Data (78.5 Gb compressed)
+ - ...and everything you would else you would expect (price, bedrooms etc.)
 
 ---
 # Understand the Metric
@@ -42,15 +50,13 @@ Multiclass Log Loss (Low, Medium, High Interest)
 $$log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})$$
 
 ---
-## What Actually Mattered
-
-Manager ID Count
+## Manager ID Count
 
 <img src ="./img/manager-sales-count-plot.jpeg" height="419" width="596" alt = "Manager Count Plot">
 
 Someone just used different transformations of Manager ID Count and scored in the top 15%
 
-Source: [Renthop Kaggle Competition: Team Null](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)
+[Source](https://blog.nycdatascience.com/student-works/renthop-kaggle-competition-team-null/)
 
 ---
 ## Listing ID
@@ -64,15 +70,20 @@ Source: [Renthop Kaggle Competition: Team Null](https://blog.nycdatascience.com/
 
 The creation time of the image folders were correlated with interest.
 
-![Leak](./img/leak.png)
+
 
 X-Axis: Day
 Y-Axis: Seconds
-Blue=Low
-Green=Medium
-Red=High
+.blue[Blue=Low]
+.green[Green=Medium]
+.red[Red=High]
 
 [Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)
+
+<img src ="./img/leak.png" height="4" width="4" alt = "Manager Count Plot">
+
+#TODO: Change order
+
 ---
 ## Feature Engineering
 
