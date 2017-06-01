@@ -87,9 +87,13 @@ height="50%" width="50%"
 alt = "Leak Plot">
 
 - X-Axis: Day
+
 - Y-Axis: Seconds
+
 - .blue[Blue=Low]
+
 - .green[Green=Medium]
+
 - .red[Red=High]
 
 .footnote[[Explanation](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries/discussion/32404)]
@@ -100,9 +104,13 @@ alt = "Leak Plot">
 A few interesting ones:
  - Grouping by categorical features and finding count/median/mean/standard
  deviation of numerical ones. (3rd Place)
+
  - Inferring Points of Interest from text descriptions (Supermarket, Subway, etc.) (2nd Place)
+
  - Leveraging duplicate data (Leads and lags on pricing) (11th Place)
+
  - Exclamation Marks in description
+
  - Reverse GeoCoding New York Neighbourhoods
 
 ---
@@ -119,7 +127,6 @@ A few interesting ones:
 - @KazAnova's StackNet example base-level predictions
 ```
 
-Sidenote: LightGBM seems to be the new model of choice.
 Best Model: LightGBM (CV: 0.50135/ Test: 0.50557)
 
 Meta-modeled with a 2-layer neural network.
