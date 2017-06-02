@@ -10,7 +10,7 @@ June 1st, 2017
 ---
 # Winning Kaggle Competitions by KazAnova
 
-1. Understanding the Data
+1. Understand the Data
 2. Understand the Metric
 3. Cross-Validate Early!
 4. Hyperparameter Tuning
@@ -56,6 +56,8 @@ Test: 74659 Rows
 Multiclass Log Loss (Low, Medium, High Interest)
 
 <img src ="./img/logloss.png" height="80%" width="80%" alt = "Log Loss">
+
+- Note: This isn't ordinal
 
 ---
 ## Manager ID Count
@@ -108,7 +110,7 @@ A few interesting ones:
 
  - Leveraging duplicate data (Leads and lags on pricing) (11th Place)
 
- - Exclamation Marks in description
+ - Exclamation marks in description
 
  - Reverse GeoCoding New York Neighbourhoods
 
@@ -148,8 +150,6 @@ in regular intervals.
 
 Bagging (Bootstrap AGGregating): Sample the data many times, with
 replacement
-
-Grid-Search Bagging
 
 For each of 12 bags:
     Grid search hyperparameters
